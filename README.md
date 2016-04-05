@@ -1,9 +1,9 @@
 # sample-webpack
 Examples of webpack
-This sample has divided in three parts 
+This sample has divided in three parts
 
 #How to Run
-All of our project depends that you run 
+All of our project depends that you run
 
 npm install to get the dependencies
 
@@ -19,3 +19,7 @@ npm bs3:dev
 npm bs3:prod
 
 #License Open Source
+
+
+#Movies to Learning
+https://www.youtube.com/watch?v=BWpgk4_GJTk
