@@ -1,0 +1,16 @@
+{
+  "name": "sample-webpack-juma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "webpack": "^1.12.14",
+    "ag-grid": "^4.0.5"
+  }
+}
