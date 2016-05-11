@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-     <script src="js/scripts.min.js"></script>
 
-  </head>
-    <body ng-app="example" ng-controller="exampleCtrl">
-        <div ag-grid="gridOptions" class="ag-fresh" style="height: 100%;"></div>
-    </body>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="js/scripts.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style/ag-grid.css">
+  <link rel="stylesheet" type="text/css" href="style/theme-fresh.css">
+  <link rel="stylesheet" type="text/css" href="style/main.scss">
+
+  <style media="screen">
+    .container {
+      margin: 3%;
+    }
+
+    .ag-row:hover {
+      background: #EEE;
+      cursor: pointer;
+    }
+  </style>
+
+</head>
+
+<body ng-app="example" ng-controller="exampleCtrl">
+  <div class="container">
+    <div ag-grid="gridOptions" class="ag-fresh ag-basic" style="height: 100%;width:70%;"></div>
+  </div>
+</body>
+
 </html>
